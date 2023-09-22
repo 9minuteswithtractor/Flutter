@@ -4,8 +4,8 @@ Mobile Dev jouney . Flutter &amp;&amp; Dart
 
 ## Getting Started 🎯
 
-    Lately I've become more interested in Mobile Development, therefore I am eager to learn / gain the skills
-    to become proficient Flutter developer.
+    Lately I've become more interested in Mobile Development, therefore I am eager
+    to learn / gain the skills to become proficient Flutter developer.
     This mini-project is a starting point of my journey to learn Mobile Development with Flutter / Dart .
     Excited! 🥹 📲
 
