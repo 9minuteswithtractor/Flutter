@@ -1,12 +1,23 @@
-# flutter_is_awesome 🙂
+# google_codelab_namer_app
 
-A new Flutter project. 👨‍💻
+## a new Flutter project. 📲
 
-## Getting Started 🎯
+## app-about: ❓
 
-    Lately I've become more interested in Mobile Development, therefore I am eager to learn / gain the skills
-    to become proficient Flutter developer.
-    This mini-project is a starting point of my journey to learn Mobile Development with Flutter / Dart .
-     Excited! 🥹 📲
+    The application generates cool-sounding names, such as "newstay", "lightstream", "mainbrake", or "graypine". The user can ask for the next name, favorite the current one, and review the list of favorited names on a separate page. The app is responsive to different screen sizes.
 
-![app-preview](lib/01-flutter.png)
+## main takeaways: 🤓
+
+[]- The basics of how Flutter works
+
+[]- Creating layouts in Flutter
+
+[]- Connecting user interactions (like button presses) to app behavior
+
+[]- Keeping your Flutter code organized
+
+[]- Making your app responsive (for different screens)
+
+[]- Achieving a consistent look & feel of your app
+
+![app-preview]()
