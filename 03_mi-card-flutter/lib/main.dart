@@ -45,75 +45,59 @@ class MyApp extends StatelessWidget {
                       fontWeight: FontWeight.bold,
                     ),
                   ),
-                  Container(
-                    margin: const EdgeInsets.only(top: 15.0),
-                    height: 1.0,
-                    width: 160.0,
-                    color: Colors.white70,
-                  ),
-                  const SizedBox(height: 10.0),
-                  Container(
-                    padding: const EdgeInsets.all(7.0),
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(27),
-                      color: Colors.white,
-                    ),
-                    margin: const EdgeInsets.symmetric(
-                      vertical: 5.0,
-                      horizontal: 35.0,
-                    ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Icon(
-                          Icons.phone,
-                          color: Colors.teal[200],
-                          size: 30.0,
-                        ),
-                        const SizedBox(width: 5.0),
-                        Text(
-                          '+47 3588370338',
-                          style: TextStyle(
-                            fontSize: 27.0,
-                            fontFamily: 'ShareTechMono',
-                            fontWeight: FontWeight.bold,
-                            letterSpacing: 2.0,
-                            color: Colors.teal[300],
-                          ),
-                        ),
-                      ],
+                  const SizedBox(
+                    height: 15.0,
+                    width: 180.0,
+                    child: Divider(
+                      color: Colors.white70,
                     ),
                   ),
-                  Container(
-                    padding: const EdgeInsets.all(7.0),
-                    decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(27),
-                      color: Colors.white,
-                    ),
+                  Card(
+                    elevation: 7,
                     margin: const EdgeInsets.symmetric(
-                      vertical: 5.0,
-                      horizontal: 10.0,
+                      vertical: 10.0,
+                      horizontal: 13.0,
                     ),
-                    child: Row(
-                      mainAxisAlignment: MainAxisAlignment.center,
-                      children: <Widget>[
-                        Icon(
-                          Icons.email,
-                          color: Colors.teal[200],
-                          size: 30.0,
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.phone,
+                        color: Colors.teal[200],
+                        size: 30.0,
+                      ),
+                      title: Text(
+                        '+47 3588370338',
+                        style: TextStyle(
+                          fontSize: 23.0,
+                          fontFamily: 'ShareTechMono',
+                          fontWeight: FontWeight.bold,
+                          letterSpacing: 2.0,
+                          color: Colors.teal[300],
                         ),
-                        const SizedBox(width: 5.0),
-                        Text(
-                          'peter@flutter.dev',
-                          style: TextStyle(
-                            fontSize: 27.0,
-                            fontFamily: 'ShareTechMono',
-                            fontWeight: FontWeight.bold,
-                            letterSpacing: 2.0,
-                            color: Colors.teal[300],
-                          ),
+                      ),
+                    ),
+                  ),
+                  Card(
+                    elevation: 7,
+                    margin: const EdgeInsets.symmetric(
+                      vertical: 10.0,
+                      horizontal: 13.0,
+                    ),
+                    child: ListTile(
+                      leading: Icon(
+                        Icons.email,
+                        color: Colors.teal[200],
+                        size: 30.0,
+                      ),
+                      title: Text(
+                        'peter@flutter.dev',
+                        style: TextStyle(
+                          fontSize: 23.0,
+                          fontFamily: 'ShareTechMono',
+                          fontWeight: FontWeight.bold,
+                          letterSpacing: 2.0,
+                          color: Colors.teal[300],
                         ),
-                      ],
+                      ),
                     ),
                   ),
                 ],

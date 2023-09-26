@@ -20,4 +20,5 @@
 - [x] Achieving a consistent look & feel of your app
 
 ![app-preview](lib/01-preview-mi-card.jpg.png)
+![app-preview_ver_1.5.0](lib/03-preview_ver_1.5.0.png)
 ![app-preview](lib/02-app-preview.png)
