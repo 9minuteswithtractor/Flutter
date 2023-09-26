@@ -2,7 +2,8 @@
 
 ## app-about: ❓
 
-    This application is designed to showcase and present relevant contact information and details that in similar way is found on business card.
+    This application is designed to showcase and present relevant contact information and details that in
+    similar way is found on business card.
 
 ## tested-physical-device: 📲
 
