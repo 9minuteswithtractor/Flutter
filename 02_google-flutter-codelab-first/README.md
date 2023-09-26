@@ -8,17 +8,17 @@
 
 ## main takeaways: 🤓
 
-[]- The basics of how Flutter works
+- [x]  The basics of how Flutter works
 
-[]- Creating layouts in Flutter
+- [x] Creating layouts in Flutter
 
-[]- Connecting user interactions (like button presses) to app behavior
+- [x] Connecting user interactions (like button presses) to app behavior
 
-[]- Keeping your Flutter code organized
+- [x] Keeping your Flutter code organized
 
-[]- Making your app responsive (for different screens)
+- [x] Making your app responsive (for different screens)
 
-[]- Achieving a consistent look & feel of your app
+- [x] Achieving a consistent look & feel of your app
 
 ![app-hope-view](lib/01-codelab-first.png)
 ![app-favorites-view](lib/02-codelab-first.png)
