@@ -9,8 +9,8 @@ class ActivityShufflePage extends StatefulWidget {
 }
 
 class _ActivityShufflePageState extends State<ActivityShufflePage> {
-  // onPress()
-  // TODO for now the list is hardcoded -> maybe GET request from database?  ...
+  
+  // in this case as we have only few answers they are hardcoded ...
   List<String> activityArr = ['Yes', 'No', 'Possible'];
   late String text = activityArr.first;
   // conditional rendering:
@@ -18,9 +18,9 @@ class _ActivityShufflePageState extends State<ActivityShufflePage> {
   double textSize = 30.0;
 
   void conditionalRender() {
+        // change fontSize based on string length so it fits the ball text area
     if (textLength >= 5) {
       // debugPrint('Lengthy answer!');
-      // debugPrint('text: $text textLen: $textLength');
       setState(() {
         textSize = 21.0;
       });
