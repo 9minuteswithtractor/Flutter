@@ -1,4 +1,4 @@
-# xylophone
+# xylophone 🎹
 
 ## app-about: ❓
 
@@ -18,7 +18,6 @@
 - [x] Practicing project structure ( separating UI code from app logic and util functions )
 
 - [x] implemwenting flutter package and setting up dependencies
-- [x]
 
 - [x] Achieving a consistent look & feel of your app
 
