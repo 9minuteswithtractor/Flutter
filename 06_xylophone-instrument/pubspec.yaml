@@ -1,0 +1,50 @@
+name: xylophone
+
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  kplayer: ^0.4.2
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/sounds/
+
+  fonts:
+
+    - family: MajorMono
+      fonts:
+        - asset: assets/fonts/MajorMonoDisplay-Regular.ttf
+
+    - family: Tourney
+      fonts:
+        - asset: assets/fonts/Tourney-VariableFont_wdth,wght.ttf
+
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico-Regular.ttf
