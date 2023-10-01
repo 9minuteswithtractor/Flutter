@@ -17,7 +17,7 @@
 
 - [x] Practicing project structure ( separating UI code from app logic and util functions )
 
-- [x] implemwenting flutter package and setting up dependencies
+- [x] implementing flutter package and setting up dependencies
 
 - [x] Achieving a consistent look & feel of your app
 
