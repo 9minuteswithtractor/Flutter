@@ -21,3 +21,4 @@
 <br/>
 
 ![app-home-view](demo/quizzler-preview.png)
+![app-home-view](demo/quizzler-upd_alert.png)
