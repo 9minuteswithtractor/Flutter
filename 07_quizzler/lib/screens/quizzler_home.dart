@@ -1,8 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:quizzler/storage/score_keeping_list.dart';
 import 'package:quizzler/utils/validate_display_question.dart';
-
-export 'package:quizzler/screens/quizzler_home.dart';
+import 'package:rflutter_alert/rflutter_alert.dart';
 
 class QuizPage extends StatefulWidget {
   const QuizPage({super.key});
@@ -12,6 +11,34 @@ class QuizPage extends StatefulWidget {
 }
 
 class _QuizPageState extends State<QuizPage> {
+  void quizWrapUp(context) {
+    Alert(
+      context: context,
+      title: 'How did it go ? 😀',
+      desc: 'Your score: $quizScore',
+      buttons: [
+        DialogButton(
+          child: const Text(
+            'Restart Quiz',
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 20.0,
+            ),
+          ),
+          onPressed: () {
+            // reset Quizzler
+            setState(() {
+              currentQuestionListIndex = 0;
+              scoreKeeper = [];
+              quizScore = 0;
+              Navigator.pop(context);
+            });
+          },
+        )
+      ],
+    ).show();
+  }
+
   @override
   Widget build(BuildContext context) {
     return SafeArea(
@@ -36,6 +63,9 @@ class _QuizPageState extends State<QuizPage> {
                   setState(() {
                     validateAnswer(true);
                   });
+                  if (currentQuestionListIndex == lastQuestionIndex + 1) {
+                    quizWrapUp(context);
+                  }
                 },
                 style: TextButton.styleFrom(
                   backgroundColor: Colors.green,
@@ -58,6 +88,10 @@ class _QuizPageState extends State<QuizPage> {
                   setState(() {
                     validateAnswer(false);
                   });
+
+                  if (currentQuestionListIndex == lastQuestionIndex + 1) {
+                    quizWrapUp(context);
+                  }
                 },
                 style: TextButton.styleFrom(
                   backgroundColor: Colors.red,
