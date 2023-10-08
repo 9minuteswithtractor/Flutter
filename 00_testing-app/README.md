@@ -2,7 +2,12 @@
 
 ## app-about: ❓
 
-    This app is my first introduction to app-testing with Flutter. I believe that app-testing is very important aspect of app-development and I will revisit this topic later in my Flutter journey. As it is for now, I have participated in Googles offered codelab 'flutter-app-testing' and have some general overview about each of the testing methods ( Unit test, Widget test, Integration test).
+    This app is my first introduction to app-testing with Flutter. 
+    I believe that app-testing is very important aspect of app-development
+    and I will revisit this topic later in my Flutter journey. As it is for now, 
+    I have participated in Googles offered codelab 'flutter-app-testing' and have 
+    some general overview about each of the testing 
+    methods ( Unit test, Widget test, Integration test).
 
 ## tested-physical-device: 📲
 
